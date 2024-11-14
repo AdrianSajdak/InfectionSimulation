@@ -4,3 +4,11 @@ Projekt symulacji ruchu i zakażeń w populacji przy użyciu wzorców projektowy
 
 ## Struktura Projektu
 
+*******************************8
+
+## Wymagania
+
+Projekt wymaga zainstalowania biblioteki `matplotlib` do wizualizacji. Można ją zainstalować przy użyciu poniższego polecenia:
+
+```bash
+pip install matplotlib
