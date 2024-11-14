@@ -1,0 +1,25 @@
+# Ignoruj pliki i foldery związane z Pythonem
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.eggs/
+
+# Ignoruj konfiguracje środowisk wirtualnych
+venv/
+.env/
+*.env
+
+# Ignoruj pliki IDE
+.vscode/
+.idea/
+
+# Ignoruj pliki logów
+*.log
+
+# Ignoruj pliki generowane przez matplotlib (obrazki z wizualizacji)
+*.png
+*.svg
+*.pdf
