@@ -1,14 +1,22 @@
-# Symulacja Rozwoju Zakażenia w Populacji
+# Symulacja Rozprzestrzeniania Zakażenia
 
-Projekt symulacji ruchu i zakażeń w populacji przy użyciu wzorców projektowych **Stan** oraz **Pamiętka**. Symulacja pozwala na obserwację rozwoju infekcji, zapis i odczyt stanu oraz wizualizację przemieszczania się osobników.
+Projekt symuluje rozwój zakażenia w populacji przy użyciu języka Python oraz zasad programowania obiektowego, w tym SOLID i wzorców projektowych Stan i Pamiątka.
 
-## Struktura Projektu
+## Funkcjonalności
 
-*******************************8
+- Symulacja ruchu osobników w ograniczonej przestrzeni.
+- Osobniki mogą być w różnych stanach zdrowia: zdrowy, zakażony (bezobjawowy i objawowy), odporny.
+- Wizualizacja rozprzestrzeniania zakażenia w czasie rzeczywistym.
+- Możliwość zapisu i wczytywania stanu symulacji w dowolnym momencie.
 
 ## Wymagania
 
-Projekt wymaga zainstalowania biblioteki `matplotlib` do wizualizacji. Można ją zainstalować przy użyciu poniższego polecenia:
+- Python 3.x
+- matplotlib
 
-```bash
-pip install matplotlib
+## Instalacja
+
+1. Sklonuj repozytorium:
+
+   ```bash
+   git clone https://github.com/twoj-uzytkownik/symulacja-zakazenia.git
